@@ -1,0 +1,13 @@
+
+header {
+    font-size: 16px;
+    font-color: #333;
+}
+.highscore {
+    text-align: right;
+    position: absolute;
+}
+.time {
+    left:0;
+    position: absolute;
+}
