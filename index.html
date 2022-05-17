@@ -7,16 +7,24 @@
   </head>
   
   <body> 
+ <div class="container">
+
       <header> 
           <h1 id="header">
               <span class="highscrore"> View Highscore</span>
-              <span class="time"> Time</span>
+              <span class="time"> Timer:</span>
           </h1>
       </header>
       
+    
   <main>
-    <button id="startButton"> Start</button>
 
+
+      <h2> Coding Quiz Challenge</h2>
+      <p> Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your scoretime by ten seconds! </p>
+    <button id="startButton" onclick= "startTimer()"> Start</button>
+
+    <div id ="questions"> </div>
 
 
   </main>
@@ -26,5 +34,6 @@
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
   crossorigin="anonymous"></script> 
     <script type="text/javascript" src="./assets/script.js"></script>
+</div>
   </body>
 </html>
