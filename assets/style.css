@@ -10,7 +10,8 @@ body {
     font-weight: 400;
     color: black; 
     text-align: left;
-    line-height: 1.5;
+    line-height: 1.5; 
+    justify-content: center;
 }
 
 .container {
@@ -18,4 +19,14 @@ body {
     flex-wrap: wrap; 
     margin-left: 20px;
     margin-right: 20px;
+}
+
+h1 {
+    font-size: 15px; 
+}
+
+.timer{
+    display: block;
+    text-align: left;
+
 }
